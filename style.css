@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Top Navbar */
+
+.top-navbar {
+    width: 100%;
+    height: 76px;
+    background-color: #f1f5ff;
+}
+
+.navbar-content {
+    height: 76px;
+    display: flex;
+    align-items: center;
+}
+
+/* OLX Logo */
+
+.olx-logo {
+    width: 80px;
+    height: 68px;
+    background-color: white;
+    border-radius: 0 0 16px 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.olx-logo span {
+    font-size: 31px;
+    font-weight: bold;
+    color: #3b6ff5;
+    letter-spacing: -2px;
+}
+
+/* Motors and Property */
+
+.nav-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    margin-left: 18px;
+
+    color: #062f33;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-option img {
+    width: 42px;
+    height: 35px;
+    object-fit: contain;
+}
+
+/* Space between left and right */
+
+.nav-space {
+    flex: 1;
+}
+
+/* Login */
+
+.login {
+    color: #002f34;
+    font-size: 16px;
+    font-weight: bold;
+
+    margin-right: 22px;
+
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+/* Sell Button */
+
+.sell-button {
+    width: 100px;
+    height: 47px;
+
+    background-color: white;
+
+    border: 5px solid;
+    border-color: #23e5db #3a77ff #3a77ff #ffce32;
+
+    border-radius: 30px;
+
+    font-size: 15px;
+    font-weight: bold;
+    color: #002f34;
+
+    margin-right: 30px;
+}
+
+.sell-button span {
+    font-size: 22px;
+    margin-right: 4px;
+}
+/* Search Section */
+
+.search-section {
+    padding: 15px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.location-box {
+    width: 100%;
+    height: 48px;
+
+    background-color: white;
+    border: 1px solid #315c63;
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 12px;
+    gap: 12px;
+
+    color: #002f34;
+    font-size: 16px;
+}
+
+.location-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.location-arrow {
+    width: 18px;
+    height: 18px;
+
+    margin-left: auto;
+}
+.location-box::after {
+    display: none !important;
+}
+.search-box {
+    height: 48px;
+
+    display: flex;
+
+    border: 1px solid #315c63;
+    border-radius: 6px;
+
+    overflow: hidden;
+}
+
+.search-box input {
+    flex: 1;
+
+    border: none;
+    outline: none;
+
+    padding: 0 12px;
+
+    font-size: 16px;
+}
+
+.search-box button {
+    width: 115px;
+
+    border: none;
+
+    background-color: #002f34;
+    color: white;
+
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.search-box button span {
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+
+/* Categories */
+
+.categories {
+    padding: 14px 32px;
+}
+
+.category-list {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.category-item {
+    font-size: 16px;
+    color: #002f34;
+}
+
+.all-categories {
+    font-weight: bold;
+}
+
+.all-categories span {
+    font-size: 22px;
+    margin-left: 6px;
+}
+
+
+/* Banners */
+
+.banner-section {
+    padding: 30px 16px;
+    height: 400px;
+}
+
+.banner {
+    width: 100%;
+
+    margin-bottom: 20px;
+
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.banner img {
+    width: 100%;
+    
+    display: block;
+}
+/* Categories Section */
+
+.categories-section {
+    padding: 25px 0;
+}
+
+.category-box {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.category-image {
+    width: 80px;
+    height: 80px;
+
+    background-color: #f2f4f5;
+
+    border-radius: 8px;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-image img {
+    width: 65px;
+    height: 65px;
+
+    object-fit: contain;
+}
+
+.category-box p {
+    margin-top: 8px;
+    margin-bottom: 0;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    color: #002f34;
+    line-height: 19px;
+}
+/* Mobile Phones Section */
+
+.mobile-section {
+    padding: 20px 12px;
+}
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 18px;
+}
+
+.section-heading h2 {
+    margin: 0;
+
+    font-size: 22px;
+    font-weight: bold;
+
+    color: #002f34;
+}
+
+.section-heading a {
+    color: #3a77ff;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+.section-heading a:hover {
+    text-decoration: underline;
+}
+
+
+/* Product Card */
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+    overflow: hidden;
+
+    background-color: white;
+
+    height: 100%;
+}
+
+
+/* Product Image */
+
+.product-image {
+    width: 100%;
+    height: 298px;
+
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* Product Details */
+
+.product-details {
+    padding: 14px 16px;
+}
+
+
+/* Price + Heart */
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-row h3 {
+    margin: 0;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    color: #002f34;
+}
+
+.heart {
+    font-size: 28px;
+
+    color: #002f34;
+
+    cursor: pointer;
+}
+
+
+/* Product Name */
+
+.product-name {
+    margin: 8px 0;
+
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #002f34;
+}
+
+
+/* Location */
+
+.location {
+    margin: 0;
+
+    font-size: 13px;
+
+    color: #406367;
+}
+
+
+/* Time */
+
+.time {
+    margin-top: 8px;
+    margin-bottom: 0;
+
+    font-size: 12px;
+
+    color: #406367;
+}
+.add{
+    
+    display:flex ;
+    justify-content: center;
+}
+/* Product Sections */
+
+.product-section {
+    padding: 10px 12px;
+}
+
+.product-section .section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 18px;}
+
+.product-section .product-image {
+    height: 298px;
+}
+
+.product-section .product-details {
+   padding:14px 16px;
+}
+
+.product-section .price-row h3 {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.product-section .heart {
+    font-size: 28px;
+
+    color: #002f34;
+
+    cursor: pointer;}                   
+
+.product-section .product-name {
+    margin: 8px 0;
+
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #002f34;
+}       
+
+.car-info {
+    font-size: 10px;
+    color: #406367;
+    margin: 0 0 5px 0;
+}
+
+.product-section .location {
+     margin: 0;
+
+    font-size: 13px;
+
+    color: #406367;
+}
+
+
+.product-section .time {
+     margin-top: 8px;
+    margin-bottom: 0;
+
+    font-size: 12px;
+
+    color: #406367;}
+.add2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}

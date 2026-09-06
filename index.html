@@ -1,0 +1,1596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX Web Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="top-navbar">
+        <div class="container-fluid">
+
+            <div class="navbar-content">
+
+                <!-- OLX Logo -->
+                <div class="olx-logo">
+                    <span>olx</span>
+                </div>
+
+                <!-- Motors -->
+                <div class="nav-option">
+                    <img src="./assets/asset 1.png" alt="Motors">
+                    <span>Motors</span>
+                </div>
+
+                <!-- Property -->
+                <div class="nav-option">
+                    <img src="./assets/asset 2.png" alt="Property">
+                    <span>Property</span>
+                </div>
+
+                <!-- Empty space -->
+                <div class="nav-space"></div>
+
+                <!-- Login -->
+                <a href="#" class="login">Login</a>
+
+                <!-- Sell Button -->
+                <button class="sell-button">
+                    <span>+</span>
+                    SELL
+                </button>
+
+            </div>
+
+        </div>
+    </nav>
+    <!-- Search Section -->
+
+    <div class="search-section">
+
+        <div class="container-fluid">
+
+            <div class="row align-items-center">
+
+                <!-- Location -->
+                
+
+    <div class="col-lg-3 col-md-4 col-12">
+
+        <div class="dropdown">
+
+           <button class="location-box dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown">
+
+                <span class="location-icon"><img src="./assets/asset 5.svg" alt=""></span>
+                <span>Pakistan</span>
+
+                <img src="./assets/asset 27.svg" class="location-arrow">
+                
+            </button>
+            
+        </div>
+
+    </div>
+
+                <!-- Search -->
+                <div class="col-lg-9 col-md-8 col-12">
+                    <div class="search-box">
+
+                        <input type="text"
+                            placeholder="Find Cars, Mobile Phones and more...">
+
+                        <button>
+                            <span>⌕</span>
+                            Search
+                        </button>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Categories -->
+
+    <div class="categories">
+
+        <div class="container-fluid">
+
+            <div class="category-list">
+
+                <div class="category-item all-categories">
+                    All Categories
+                    <span>⌄</span>
+                </div>
+
+                <div class="category-item">Mobile Phones</div>
+                <div class="category-item">Cars</div>
+                <div class="category-item">Motorcycles</div>
+                <div class="category-item">Houses</div>
+                <div class="category-item">Video-Audios</div>
+                <div class="category-item">Tablets</div>
+                <div class="category-item">Land & Plots</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Banners -->
+
+    <div class="banner-section">
+
+        <div class="container-fluid">
+
+            <div class="banner">
+                <img src="./assets/dil.png" alt="Advertisement">
+            </div>
+
+            <div class="banner">
+                <img src="./assets/realme c100.png" alt="Advertisement">
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Categories Section -->
+
+<div class="categories-section">
+
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Mobiles -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg">
+                <div class="category-box">
+                    <div class="category-image">
+                        <img src="./assets/asset 7.png" alt="Mobiles">
+                    </div>
+                    <p>Mobiles</p>
+                </div>
+            </div>
+
+            <!-- Vehicles -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg">
+                <div class="category-box">
+                    <div class="category-image">
+                        <img src="./assets/asset 8.png" alt="Vehicles">
+                    </div>
+                    <p>Vehicles</p>
+                </div>
+            </div>
+
+            <!-- Property For Sale -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg">
+                <div class="category-box">
+                    <div class="category-image">
+                        <img src="./assets/asset 9.png" alt="Property For Sale">
+                    </div>
+                    <p>Property<br>For Sale</p>
+                </div>
+            </div>
+
+            <!-- Property For Rent -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg">
+                <div class="category-box">
+                    <div class="category-image">
+                        <img src="./assets/asset 10.png" alt="Property For Rent">
+                    </div>
+                    <p>Property<br>For Rent</p>
+                </div>
+            </div>
+
+            <!-- Electronics -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg">
+                <div class="category-box">
+                    <div class="category-image">
+                        <img src="./assets/asset 11.png" alt="Electronics">
+                    </div>
+                    <p>Electronics<br>& Home...</p>
+                </div>
+            </div>
+
+            <!-- Bikes -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg">
+                <div class="category-box">
+                    <div class="category-image">
+                        <img src="./assets/asset 12.png" alt="Bikes">
+                    </div>
+                    <p>Bikes</p>
+                </div>
+            </div>
+
+            <!-- Business -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg">
+                <div class="category-box">
+                    <div class="category-image">
+                        <img src="./assets/asset 13.png" alt="Business">
+                    </div>
+                    <p>Business,<br>Industrial &...</p>
+                </div>
+            </div>
+
+            <!-- Services -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg">
+                <div class="category-box">
+                    <div class="category-image">
+                        <img src="./assets/asset 14.png" alt="Services">
+                    </div>
+                    <p>Services</p>
+                </div>
+            </div>
+
+            <!-- Jobs -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg">
+                <div class="category-box">
+                    <div class="category-image">
+                        <img src="./assets/asset 15.png" alt="Jobs">
+                    </div>
+                    <p>Jobs</p>
+                </div>
+            </div>
+
+            <!-- Animals -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg">
+                <div class="category-box">
+                    <div class="category-image">
+                        <img src="./assets/asset 16.png" alt="Animals">
+                    </div>
+                    <p>Animals</p>
+                </div>
+            </div>
+
+            <!-- Furniture -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg">
+                <div class="category-box">
+                    <div class="category-image">
+                        <img src="./assets/asset 17.png" alt="Furniture">
+                    </div>
+                    <p>Furniture &<br>Home Decor</p>
+                </div>
+            </div>
+
+            <!-- Fashion -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg">
+                <div class="category-box">
+                    <div class="category-image">
+                        <img src="./assets/asset 18.png" alt="Fashion">
+                    </div>
+                    <p>Fashion<br>& Beauty</p>
+                </div>
+            </div>
+
+            <!-- Books -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg">
+                <div class="category-box">
+                    <div class="category-image">
+                        <img src="./assets/asset 19.png" alt="Books">
+                    </div>
+                    <p>Books, Sports<br>& Hobbies</p>
+                </div>
+            </div>
+
+            <!-- Kids -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg">
+                <div class="category-box">
+                    <div class="category-image">
+                        <img src="./assets/asset 20.png" alt="Kids">
+                    </div>
+                    <p>Kids</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+    <!-- Mobile Phones -->
+
+<section class="mobile-section">
+
+    <div class="container-fluid">
+
+        <div class="section-heading">
+            <h2>Mobile Phones</h2>
+
+            <a href="#">View More</a>
+        </div>
+
+
+        <div class="row g-3">
+
+            <!-- Card 1 -->
+
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 012645.png" alt="Google Pixel">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 1.69 Lac</h3>
+
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            Google Pixel 9 Pro XL 16gb 256gb pta approved
+                        </p>
+
+                        <p class="location">
+                            Mall Road, Lahore
+                        </p>
+
+                        <p class="time">
+                            2 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 2 -->
+
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 012707.png" alt="Tecno Spark">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 27,000</h3>
+
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            Tecno Spark 20 8GB RAM 256GB Storage, Panel Changed
+                        </p>
+
+                        <p class="location">
+                            Bihar Colony, Hyderabad
+                        </p>
+
+                        <p class="time">
+                            2 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 3 -->
+
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 012722.png" alt="iPhone">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 1.78 Lac</h3>
+
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            Apple iPhone 13 Pro Max 256GB PTA approved
+                        </p>
+
+                        <p class="location">
+                            Johar Town, Lahore
+                        </p>
+
+                        <p class="time">
+                            3 days ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 4 -->
+
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 012737.png     " alt="Moto G Play">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 15,000</h3>
+
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            Moto G Play 2024 | Non-PTA SIM Locked | Rs. 15000 | Asif Mobile
+                        </p>
+
+                        <p class="location">
+                            Shahdara, Lahore
+                        </p>
+
+                        <p class="time">
+                            4 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+    <div class="add" ><img src="./assets/Screenshot 2026-09-07 012805.png" alt=""></div>
+    <!-- Cars Section -->
+
+<section class="product-section">
+
+    <div class="container-fluid">
+
+        <div class="section-heading">
+            <h2>Cars</h2>
+            <a href="#">View More</a>
+        </div>
+
+        <div class="row g-2">
+
+            <!-- Car 1 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 020126.png" alt="Toyota Land Cruiser">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 55 Lacs</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            Toyota Land Cruiser prado TZ3.0
+                        </p>
+
+                        <p class="car-info">
+                            1996 • 253,000 km • Petrol
+                        </p>
+
+                        <p class="location">
+                            F-11 Markaz, Islamabad
+                        </p>
+
+                        <p class="time">
+                            3 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Car 2 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 020143.png" alt="Suzuki Cultus">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 31 Lacs</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            Suzuki Cultus VXR mint condition.
+                        </p>
+
+                        <p class="car-info">
+                            2021 • 76,000 km • Petrol
+                        </p>
+
+                        <p class="location">
+                            Eden Gardens, Faisalabad
+                        </p>
+
+                        <p class="time">
+                            5 days ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Car 3 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 020158.png" alt="Toyota Corolla">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 65.50 Lacs</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            Toyota Altis Grande Model 2021
+                        </p>
+
+                        <p class="car-info">
+                            2021 • 120,000 km • Petrol
+                        </p>
+
+                        <p class="location">
+                            DHA Phase 6, Lahore
+                        </p>
+
+                        <p class="time">
+                            2 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Car 4 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 020213.png" alt="Hyundai Sonata">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 78.50 Lacs</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            Hyundai Sonata 2021
+                        </p>
+
+                        <p class="car-info">
+                            2021 • 63,000 km • Petrol
+                        </p>
+
+                        <p class="location">
+                            Faisal Town, Lahore
+                        </p>
+
+                        <p class="time">
+                            2 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- Bikes & Motorcycles Section -->
+
+<section class="product-section">
+
+    <div class="container-fluid">
+
+        <div class="section-heading">
+            <h2>Bikes & Motorcycles</h2>
+            <a href="#">View More</a>
+        </div>
+
+        <div class="row g-2">
+
+            <!-- Bike 1 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 020237.png" alt="Honda Bike">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 215 Lac</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            Honda Pridor 2026 | 10/10 Genuine Condition
+                        </p>
+
+                        <p class="location">
+                            Mandian, Abbottabad
+                        </p>
+
+                        <p class="time">
+                            1 week ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 2 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 020252.png" alt="Yamaha Bike">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 4.54 Lac</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            Yamaha YBR 125G (2025 Model)
+                        </p>
+
+                        <p class="location">
+                            Find Bypass, Gujranwala
+                        </p>
+
+                        <p class="time">
+                            5 days ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 3 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 020306.png" alt="Suzuki Bike">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 3.75 Lac</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            Suzuki GS 150 (2024) - Islamabad Registered
+                        </p>
+
+                        <p class="location">
+                            G-9, Islamabad
+                        </p>
+
+                        <p class="time">
+                            4 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 4 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 020322.png" alt="Honda CG 125">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 245 Lac</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            HONDA CG 125 || Deluxe Edition
+                        </p>
+
+                        <p class="location">
+                            Kamra, Attock
+                        </p>
+
+                        <p class="time">
+                            5 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Bikes & Motorcycles Section -->
+
+<section class="product-section">
+
+    <div class="container-fluid">
+
+        <div class="section-heading">
+            <h2>Houses</h2>
+            <a href="#">View More</a>
+        </div>
+
+        <div class="row g-2">
+
+            <!-- Bike 1 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025221.png" alt="Honda Bike">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 6 Crore</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            10 marla house for sale | 5 Beds • 5 Baths • 10 Marla
+                        </p>
+
+                        <p class="location">
+                            Model Town - Block G, Lahore
+                        </p>
+
+                        <p class="time">
+                            2 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 2 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025236.png" alt="Yamaha Bike">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 18 Crore</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            4 KANAL EXCLUSIVE FARMHOUSE FOR SALE IN LAHORE | 6 Beds • 7 Baths • 4 Kanal
+                        </p>
+
+                        <p class="location">
+                           Bedian Road, Lahore
+                        </p>
+
+                        <p class="time">
+                            4 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 3 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025307.png" alt="Suzuki Bike">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 2.40 Crore</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            House ground plus 1 + half full marble flooring KDA lease North Karachi | 6 Beds • 7 Baths • 120 Sqyd
+                        </p>
+
+                        <p class="location">
+                           North Karachi - Sector 8, Karachi
+                        </p>
+
+                        <p class="time">
+                          10 hours ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 4 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025331.png" alt="Honda CG 125">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 9 Crore</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            1 KANAL ULTRA MODERN HOUSE FOR SALE | 6 Beds • 6 Baths • 1 Kanal
+                        </p>
+
+                        <p class="location">
+                           Wapda Town Phase 1, Lahore
+                        </p>
+
+                        <p class="time">
+                            2 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="product-section">
+
+    <div class="container-fluid">
+
+        <div class="section-heading">
+            <h2>Video-Audios</h2>
+            <a href="#">View More</a>
+        </div>
+
+        <div class="row g-2">
+
+            <!-- Bike 1 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025400.png" alt="Honda Bike">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 1.35 Lac</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            Microphone | Rode NT1 5th Gen Mic | Focusrite Scarlett Solo 3rd Gen
+                        </p>
+
+                        <p class="location">
+                            Model Town, Multan
+
+
+                        </p>
+
+                        <p class="time">
+                           2 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 2 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025412.png" alt="Yamaha Bike">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 2.04 Lac</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            Asimali
+                        </p>
+
+                        <p class="location">
+                            Others, Shikarpur
+                        </p>
+
+                        <p class="time">
+                           4 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 3 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025429.png" alt="Suzuki Bike">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 37,000</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            Walkie Talkie, Motorola, Kenwood TYT MD 380 | Wireless Set | Motorola
+                        </p>
+
+                        <p class="location">
+                            DHA Defence, Lahore
+                        </p>
+
+                        <p class="time">
+                          2 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 4 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025449.png" alt="Honda CG 125">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 69,900</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                           VIZIO American Soundbar 5.1 Wireless Subwoofer Dolby Atmos New 10/10
+                        </p>
+
+                        <p class="location">
+                            Bahria Town, Lahore
+                        </p>
+
+                        <p class="time">
+                            10 hours ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Bikes & Motorcycles Section -->
+
+<section class="product-section">
+
+    <div class="container-fluid">
+
+        <div class="section-heading">
+            <h2>Tablets</h2>
+            <a href="#">View More</a>
+        </div>
+
+        <div class="row g-2">
+
+            <!-- Bike 1 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025520.png" alt="Honda Bike">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 5,000</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            iPad Air 1 | 2 | Mini 2 | 3 | 4 | 5 | Pro 16 | 5th Gen | 6th Gen | 7th Gen
+                        </p>
+
+                        <p class="location">
+                            Gulberg, Lahore
+                        </p>
+
+                        <p class="time">
+                            2 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 2 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025507.png" alt="Yamaha Bike">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 2.45 Lac</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            Apple iPads Available | iPad Pro M4, iPad Air M2/M3/M4 & iPad Mini 7
+                        </p>
+
+                        <p class="location">
+                           Cantt, Multan
+                        </p>
+
+                        <p class="time">
+                           1 week ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 3 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025533.png" alt="Suzuki Bike">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 24,999</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            iPad Mini 4 / iPad 7th Gen / iPad 8th Gen 128GB Fresh Stock
+                        </p>
+
+                        <p class="location">
+                           Johar Town, Lahore
+                        </p>
+
+                        <p class="time">
+                           3 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 4 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025545.png" alt="Honda CG 125">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 34,999</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            S6 Lite / Samsung S7 / Samsung S9 FE...
+                        </p>
+
+                        <p class="location">
+                            Johar Town Phase 1, Lahore
+                        </p>
+
+                        <p class="time">
+                           3 days ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="product-section">
+
+    <div class="container-fluid">
+
+        <div class="section-heading">
+            <h2>Land & Plots</h2>
+            <a href="#">View More</a>
+        </div>
+
+        <div class="row g-2">
+
+            <!-- Bike 1 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025559.png" alt="Honda Bike">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 25 Lacs</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            7 Marla and 8.25 Plot for sale Chaklala Scheme 3 Walyat Colony
+                        </p>
+
+                        <p class="location">
+                           Chaklala Scheme 3, Rawalpindi
+                        </p>
+
+                        <p class="time">
+                            3 days ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 2 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025612.png" alt="Yamaha Bike">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 28 Lacs</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            Future Investment 5-Marla Residential On Ground Possession Plot Availabl...
+                        </p>
+
+                        <p class="location">
+                           New Lahore City, Lahore
+                        </p>
+
+                        <p class="time">
+                            2 days ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 3 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025624.png" alt="Suzuki Bike">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 15 Lacs</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            PRIME FARMS (Premium Phase) Plots for cattle farm, goat farm, picnic...
+                        </p>
+
+                        <p class="location">
+                           Gadap Town, Karachi
+                        </p>
+
+                        <p class="time">
+                           1 day ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 4 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025635.png" alt="Honda CG 125">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3>Rs 2.60 Crore</h3>
+                            <span class="heart">♡</span>
+                        </div>
+
+                        <p class="product-name">
+                            Residential plot on Shah Allah Ditta Road
+                        </p>
+
+                        <p class="location">
+                            Karsaaz Villas, Islamabad
+                        </p>
+
+                        <p class="time">
+                           1 day ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="product-section">
+
+    <div class="container-fluid">
+
+        <div class="section-heading">
+            <h2>Jobs</h2>
+            <a href="#">View More</a>
+        </div>
+
+        <div class="row g-2">
+
+            <!-- Bike 1 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025652.png" alt="Honda Bike">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3/h3>
+                            <span class="heart"></span>
+                        </div>
+                        
+
+                        <p class="product-name">
+                          WE ARE HIRING!-- Join Our Team & Grow Your Career Wit...
+                        </p>
+
+                        <p class="location">
+                           Canal Bank Housing Scheme, Lahore
+                        </p>
+
+                        <p class="time">
+                            3 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 2 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025707.png" alt="Yamaha Bike">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3></h3>
+                            <span class="heart"></span>
+                        </div>
+                        <p class="product-name">
+                            Urgent Hiring | Call Center Agents Required | Male &...
+                        </p>
+
+                        <p class="location">
+                            Johar Town, Lahore
+                        </p>
+
+                        <p class="time">
+                           3 weeks ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 3 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025720.png" alt="Suzuki Bike">
+                    </div>
+
+                    <div class="product-details">
+
+    
+                        <div class="price-row">
+                            <h3></h3>
+                            <span class="heart"></span>
+                        </div>
+                        <p class="product-name">
+                            Indrive / Yango Job || Drivers Required || Drivers Job in Lahore
+                        </p>
+
+                        <p class="location">
+                           Shabbir Town, Lahore
+                        </p>
+
+                        <p class="time">
+                            6 days ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Bike 4 -->
+            <div class="col-12 col-sm-6 col-lg-3">
+
+                <div class="product-card">
+
+                    <div class="product-image">
+                        <img src="./assets/Screenshot 2026-09-07 025735.png" alt="Honda CG 125">
+                    </div>
+
+                    <div class="product-details">
+
+                        <div class="price-row">
+                            <h3></h3>
+                            <span class="heart"></span>
+                        </div>
+                        <p class="product-name">
+                          Driver Jobs, Rider... Company Work p...
+                        </p>
+
+                        <p class="location">
+                           Jhang Sadar, Jhang
+                        </p>
+
+                        <p class="time">
+                          5 days ago
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<div class="add2"><img src="./assets/Screenshot 2026-09-07 030759.png" alt=""></div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</html>
