@@ -634,3 +634,9 @@ body {
         font-size: 16px;
     }
 }
+.social-icons i {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 1;
+}
+
